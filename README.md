@@ -46,9 +46,9 @@ Now the application is ready to launch, from another **Terminal** or **Command P
 
 
 ## [Week 3](https://github.com/cocacmclub/web_app/tree/master/week3)
-This example is for creating a mutable contact list. First, ensure that you have **mongodb** running. In another **Terminal** or **Command Prompt** session 'cd' to *week3/backend*, then run:
+This example is for creating a mutable contact list. First, ensure that you have **mongodb** running. In another **Terminal** or **Command Prompt** session `cd` to *week3/backend*, then run:
 ```
 npm install
 npm start
 ```
-Lastly, open a third **Terminal** or **Command Prompt** window and 'cd' to *week3/frontend*. Run the commands from above in this directory as well. This will open a browser window with the contact list application.
+Lastly, open a third **Terminal** or **Command Prompt** window and `cd` to *week3/frontend*. Run the commands from above in this directory as well. This will open a browser window with the contact list application.
