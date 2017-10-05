@@ -12,7 +12,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div style={{height: '300px', position: 'relative'}}>
+      <div style={{height: '100%'}}>
         <Layout fixedHeader>
             <Header title="Contacts" className="mdl-color--blue-500" >
               <Textfield
