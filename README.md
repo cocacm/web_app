@@ -9,7 +9,7 @@ as well, add the **all** flag, `ls -a`
 - In **Command Prompt**, for listing the files and folders in your current directory use `dir`. To view hidden files and
 folders as well, add the **all** flag, `dir /a`
 - For changing directories in either **Terminal** or **Command Prompt**, use `cd <DIRECTORY>`
- 
+
 
 After downloading or copying the examples for [week 1](https://github.com/cocacmclub/web_app/tree/master/week1),
 navigate into the directory using `cd <DIRECTORY>`. Using `start index.html` in **Command Prompt**, or `open index.html`
@@ -43,3 +43,14 @@ To run this demo, you will need to start [**mongodb**](https://www.mongodb.com/w
 Next, in another window, navigate to the *backend* directory and run `node index.js` to run the server-side **javascript** file. This should pause execution as [**nodejs**](http://nodeguide.com/beginner.html) waits for instructions on what to do next, which it will recieve from the client who makes a request by navigating to the url specified in the code.
 
 Now the application is ready to launch, from another **Terminal** or **Command Prompt** window, move into the *frontend* directory and run `npm start`. If prompted, enter `y` to switch to another port. A new browser window will then open with our [**react**](https://reactjs.org/docs/hello-world.html) application. Try inspecting the different parts of this code in the backend and frontend to learn more about how this example works!~
+
+
+## Week 3
+ensure you have mongodb running
+
+in another terminal window cd to ./week3/backend then run
+```
+npm install
+npm start
+```
+now open a third terminal, cd to ./week3/frontend then run the above commands
