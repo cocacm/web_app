@@ -38,8 +38,6 @@ function renderListItems(){
     person = people[i];
     if(!child){
       createListItem(ul, person.name)
-    }else if(!person){
-      ul.removeChild(child)
     }else if(person.name != child.innerText){
       child.textContent = person.name
     }
