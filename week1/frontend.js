@@ -64,7 +64,6 @@ function removeListItem(event){
   var index = Array.prototype.indexOf.call(ul.children, event.target);
   people.splice(index, 1)
   ul.removeChild(event.target);
-  renderListItems()
 }
 
 function addPerson(){
