@@ -45,12 +45,10 @@ Next, in another window, navigate to the *backend* directory and run `node index
 Now the application is ready to launch, from another **Terminal** or **Command Prompt** window, move into the *frontend* directory and run `npm start`. If prompted, enter `y` to switch to another port. A new browser window will then open with our [**react**](https://reactjs.org/docs/hello-world.html) application. Try inspecting the different parts of this code in the backend and frontend to learn more about how this example works!~
 
 
-## Week 3
-ensure you have mongodb running
-
-in another terminal window cd to ./week3/backend then run
+## [Week 3](https://github.com/cocacmclub/web_app/tree/master/week3)
+This example is for creating a mutable contact list. First, ensure that you have **mongodb** running. In another **Terminal** or **Command Prompt** session `cd` to *week3/backend*, then run:
 ```
 npm install
 npm start
 ```
-now open a third terminal, cd to ./week3/frontend then run the above commands
+Lastly, open a third **Terminal** or **Command Prompt** window and `cd` to *week3/frontend*. Run the commands from above in this directory as well. This will open a browser window with the contact list application.
