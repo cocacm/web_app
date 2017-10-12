@@ -153,7 +153,7 @@ Container.prototype.removeItem = function(event){
   this.setState(newPeople)
 }
 Container.prototype.addPerson = function(){
-  //convert this to a class method and implement event support in Renderer
+  //implement event support in Renderer
   var input = document.getElementById('add-person');
   var person = input.value;
   //do something here...
