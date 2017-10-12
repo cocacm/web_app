@@ -1,13 +1,15 @@
-li{
+span{
   cursor: pointer;
-  list-style: none;
   padding: 10px;
-  border: 1px solid #ccc;
   border-radius: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   text-align: center;
   transition: all 0.2s ease-in;
   position: relative;
+  margin: 10px 40px;
+  display: inline-block;
+  color:white;
+  background-color: cyan;
 }
 ul{
   padding-left: 0;
