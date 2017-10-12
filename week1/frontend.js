@@ -101,15 +101,7 @@ function Component(props){
 }
 
 Component.prototype.setState = function(newState){
-  //item was deleted, remove corresponding DOM nodes
-  if(newState.length < this.state.length){
-    this.state.forEach( (item, index) => {
-      if(newState.indexOf(item) < 0){
-        this.parent.removeChild(this.parent.children[index]);
-      }
-    })
-  }
-  //assign new items and re-render
+  //assign new state and re-render
   this.state = newState;
   this.render()
 }
