@@ -1,3 +1,27 @@
-/week3/backend/node_modules
-/week3/frontend/node_modules
-/week1/node_modules
+# node
+**/node_modules/
+
+# OS
+.DS_Store
+
+# Binaries
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
+
+# Media
+*.mp3
+*.mp4
+*.gif
+*.png
+*.jpg
+*.jpeg

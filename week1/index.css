@@ -1,24 +1,4 @@
-span{
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 0px;
-  text-align: center;
-  transition: all 0.2s ease-in;
-  position: relative;
-  margin: 10px 40px;
-  display: inline-block;
-  color:white;
-  background-color: cyan;
-}
-ul{
-  padding-left: 0;
-  width: 300px;
-  overflow: visible;
-  margin: 0 auto;
-  padding-top: 10px;
-}
-body{
-  font-family: sans-serif;
-  text-align: center;
+.example {
+  color:blue;
+  border: 1px solid blue;
 }
